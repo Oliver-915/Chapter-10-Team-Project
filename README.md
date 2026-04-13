@@ -7,8 +7,8 @@ Simulates an inventory control system and point of sale retail system. User has 
 ### <program_name> Flowchart
 ```mermaid
 graph TD;
-  Main-->Inventory System;
-  Main-->Retail System;
+  Main-->InventorySystem;
+  Main-->RetailSystem;
   A-->D;
   A-->E;
 ```
