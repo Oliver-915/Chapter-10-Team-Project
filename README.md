@@ -4,7 +4,7 @@ Rhett, Oliver
 Here is where you describe what the program does:
 Simulates an inventory control system and point of sale retail system. User has 3 menus. Main, Inventory(needs password), and Cash register
 
-### <program_name> Flowchart
+### <ACME_retail_system> Flowchart
 ```mermaid
 graph TD;
   Main-->InventorySystem;
