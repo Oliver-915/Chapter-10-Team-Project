@@ -9,8 +9,16 @@ Simulates an inventory control system and point of sale retail system. User has 
 graph TD;
   Main-->InventorySystem;
   Main-->RetailSystem;
-  A-->D;
-  A-->E;
+  InventorySystem-->DisplayInventory;
+  InventorySystem-->AddInventory;
+  InventorySystem-->WriteData;
+  InventorySystem-->EndInventory;
+  RetailSystem-->DisplayCart;
+  RetailSystem-->DisplayItems;
+  RetailSystem-->Purchase;
+  RetailSystem-->Empty/StartOver;
+  RetailSystem-->CheckOut;
+  RetailSystem-->ExitMain;
 ```
 
 #### Function Diagrams
