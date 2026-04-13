@@ -1,13 +1,14 @@
 # Chapter-10-Team-Project
 Rhett, Oliver
-## <program_name> Description
-Here is where you describe what the program does
+## <ACME_retail_system> Description
+Here is where you describe what the program does:
+Simulates an inventory control system and point of sale retail system. User has 3 menus. Main, Inventory(needs password), and Cash register
 
 ### <program_name> Flowchart
 ```mermaid
 graph TD;
-  A-->B;
-  A-->C;
+  Main-->Inventory System;
+  Main-->Retail System;
   A-->D;
   A-->E;
 ```
