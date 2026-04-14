@@ -29,9 +29,15 @@ graph TD;
 | `time:integer`     | calculates input  | outputs Inventory or Retail            |
 | `name:string`      | takes input for name N/A | returns total |
 ***
-| `function name2`    |               |     author   |
+| `fInventory`    |               |     author   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user for N/A  |              |
+| `time:integer`     | calculates input  | outputs Display, Add, Write, or End           |
+| `name:string`      | takes input for name N/A | returns total |
+***
+| `Retail`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for N/A  |              |
+| `time:integer`     | calculates input | outputs Display cart, DisplayItems, Purchase, Empty, Checkout, and exit         |
+| `name:string`      | takes input for name N/A | returns total |
 ***
